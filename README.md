@@ -2,6 +2,7 @@
 
 This repository contains a lightweight framework for training and visualising normalizing flows
 and flow-matching (diffusion) models in PyTorch in a simple 2D setting with a few toy datasets.
+I mainly used these to make some nice plots in my thesis. 
 
 ## Example Samples
 
