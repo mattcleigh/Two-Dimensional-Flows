@@ -34,17 +34,6 @@ and flow-matching (diffusion) models in PyTorch in a simple 2D setting with a fe
 - **src/distributions.py**
   Contains a few simple distribution classes for generating toy data.
 
-## Installation
-
-1. Clone the repository:
-   ```
-   git clone https://github.com/example/FlowTest.git
-   ```
-2. Inside the directory, install requirements:
-   ```
-   pip install -r requirements.txt
-   ```
-
 ## Usage
 
 The only executable python file is `train.py`, which trains and plots the morphing of a 2D space using a normalizing flow or diffusion model.
