@@ -11,11 +11,6 @@ and flow-matching (diffusion) models in PyTorch in a simple 2D setting with a fe
 | Linear Continuous Flow| ![Diff Sample 1](plots/linear_signorm_moons_normal/samples_1.png) | ![Diff Sample 2](plots/linear_signorm_moons_normal/samples_2.png) | ![Diff Sample 3](plots/linear_signorm_moons_normal/samples_3.png) | ![Diff Sample 4](plots/linear_signorm_moons_normal/samples_4.png) | ![Diff Sample 5](plots/linear_signorm_moons_normal/samples_5.png) |
 | Variance Preserving Continuous Flow| ![Diff Sample 1](plots/vp_signorm_moons_normal/samples_1.png) | ![Diff Sample 2](plots/vp_signorm_moons_normal/samples_2.png) | ![Diff Sample 3](plots/vp_signorm_moons_normal/samples_3.png) | ![Diff Sample 4](plots/vp_signorm_moons_normal/samples_4.png) | ![Diff Sample 5](plots/vp_signorm_moons_normal/samples_5.png) |
 
-
-
-
-
-
 ## Project Structure
 
 - **src/models.py**
@@ -38,14 +33,14 @@ and flow-matching (diffusion) models in PyTorch in a simple 2D setting with a fe
 
 The only executable python file is `train.py`, which trains and plots the morphing of a 2D space using a normalizing flow or diffusion model.
 
-For the model_name argument there are three options:
+For the model_name argument there are five options:
 - `flow`: For a normalizing flow model using coupling layers with rational-quadratic spline transformations
 - `linear_uniform`: For a diffusion model with linear interpolation and uniform time sampling
 - `linear_signorm`: For a diffusion model with linear interpolation and time sampling from a sigmoid-normal distribution
 - `vp_uniform`: For a diffusion model with variance preserving interpolation and uniform time sampling
 - `vp_signorm`: For a diffusion model with variance preserving interpolation and time sampling from a sigmoid-normal distribution
 
-For the 2D synthetic datasets, there are three options:
+For the 2D synthetic datasets, there are five options:
  - `normal`: A 2D normal distribution
  - `uniform`: A 2D uniform distribution
  - `moons`: The classic two moons dataset from scikit-learn
